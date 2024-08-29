@@ -16,9 +16,8 @@ font = "sans serif"  # Modern font style
 wide = true
 
 [global]
-# Set the default page title and favicon
+# Set the default page title
 title = "ZapGPT - AI Chatbot"
-favicon = "path/to/favicon.ico"  # Replace with the path to your favicon
 
 [sidebar]
 # Customize sidebar appearance
