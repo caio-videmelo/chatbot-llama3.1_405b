@@ -1,6 +1,36 @@
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
 [theme]
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
+primaryColor = "#1a73e8"  # A modern blue color for primary elements
+backgroundColor = "#ffffff"  # Clean white background
+secondaryBackgroundColor = "#f0f0f0"  # Light gray for secondary elements
+textColor = "#333333"  # Dark gray for text
+font = "sans serif"  # Modern font style
+
+[layout]
+# Use wide layout for a more spacious design
+wide = true
+
+[global]
+# Set the default page title and favicon
+title = "ZapGPT - AI Chatbot"
+favicon = "path/to/favicon.ico"  # Replace with the path to your favicon
+
+[sidebar]
+# Customize sidebar appearance
+backgroundColor = "#f7f7f7"  # Light sidebar background
+textColor = "#333333"  # Dark text color for sidebar
+borderColor = "#e0e0e0"  # Light border for sidebar
+
+[footer]
+# Customize footer appearance
+backgroundColor = "#1a73e8"  # Match primary color
+textColor = "#ffffff"  # White text for footer
+
+[components]
+# Enable custom components for enhanced UI
+customComponent = true
